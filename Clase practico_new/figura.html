@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizaando figuras geométricas | Curso práctico de JavaScript</title>
+</head>
+<body>
+    <h1>
+        Figuras geométricas
+    </h1>
+    <header>
+        <p>Este es el primer taller del curso práctivo de JavaScript</p>
+    </header>
+
+    <section>
+        <h2>Calcula el área y perimetro del cuadrado</h2>
+        <form>
+            <label for="InputCuadrado">
+            Escribe cuánto mide cada lado de tu cuadrado:
+            </label>            
+            <input id="InputCuadrado" type="number" />
+
+            <button type="button" onclick="calcularPerimetroCuadrado()"> 
+                Calcular el perímetro
+            </button>
+
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área
+            </button>
+
+        </form>
+
+        
+    </section>
+    <section>
+        <h2>Calcula el área y perimetro del Triangulo</h2>
+    <form>
+        <label for="InputTriangulo">
+        Escribe cuánto mide cada lado de tu triangulo:
+        </label>            
+        <input id="InputTriangulolado1" type="number" placeholder="Inserta lado izquierdo" style="WIDTH:160px"/>
+        <input id="InputTriangulolado2" type="number" placeholder="Inserta lado derecho" style="WIDTH:160px"/>
+        <input id="InputTriangulobase" type="number"  placeholder="Inserta la base" style="WIDTH:160px" />
+        <input id="InputTriangulobase" type="number"  placeholder="Inserta la altura" style="WIDTH:160px" />
+        <button type="button" onclick="calcularPerimetroTriangulo()"> 
+            Calcular el perímetro
+        </button>
+
+        <button type="button" onclick="calcularAreaTriangulo()">
+            Calcular el área
+        </button>
+
+
+    
+    </form>
+    </section>
+    <script src="./figura_encapsulamiento.js"></script>
+</body>
+</html>
